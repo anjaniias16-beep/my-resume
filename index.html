@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chintala Anjani | BCA Student Portfolio | Vignan University</title>
+<meta name="description" content="Portfolio of Chintala Anjani, first-year BCA student at Vignan University. Education, skills, languages and contact details.">
+<meta name="keywords" content="Chintala Anjani, BCA student, Vignan University, portfolio, web development, fresher">
+<meta name="author" content="Chintala Anjani">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Chintala Anjani","email":"anjaniias16@gmail.com","jobTitle":"BCA Student","alumniOf":[{"@type":"CollegeOrUniversity","name":"Vignan University"}],"knowsLanguage":["English","Telugu"]}
+</script>
+<style>
+:root{
+  --bg:#07060f; --panel:#0f0d1f; --ink:#ecebff; --mute:#a7a4c9;
+  --pink:#ff2bd6; --cyan:#18f0ff; --lime:#b6ff3b; --line:#2a2650;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#07060f}}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;margin:0}
+body{height:100%;background:var(--bg);color:var(--ink);font:400 1.05rem/1.65 "DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;overflow:hidden}
+main{height:100%;overflow-y:auto;scroll-snap-type:y mandatory;scroll-behavior:smooth}
+.glow{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.glow i{position:absolute;width:46vmax;height:46vmax;border-radius:50%;filter:blur(110px);opacity:.28;animation:drift 22s ease-in-out infinite alternate}
+.glow i:nth-child(1){background:var(--pink);top:-18vmax;left:-12vmax}
+.glow i:nth-child(2){background:var(--cyan);bottom:-20vmax;right:-14vmax;animation-delay:-9s}
+@keyframes drift{to{transform:translate(8vmax,6vmax) scale(1.15)}}
+section{position:relative;z-index:1;min-height:100%;scroll-snap-align:start;display:flex;flex-direction:column;justify-content:center;padding:5rem clamp(1.2rem,8vw,7rem) 4rem}
+h1,h2,h3{font-family:Syne,"DM Sans",system-ui,sans-serif;line-height:1.05;letter-spacing:-.02em}
+h1{font-size:clamp(2.8rem,10vw,7.5rem);font-weight:800}
+h2{font-size:clamp(2rem,5.5vw,3.6rem);font-weight:800;margin-bottom:1.6rem}
+h3{font-size:1.25rem;font-weight:600;color:var(--cyan)}
+.neon{background:linear-gradient(100deg,var(--cyan),var(--pink),var(--cyan));background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sweep 6s linear infinite;filter:drop-shadow(0 0 18px rgba(255,43,214,.45))}
+@keyframes sweep{to{background-position:-250% 0}}
+.hero{display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center}
+.hero p{max-width:34rem;color:var(--mute);margin:1.2rem 0 2rem;font-size:1.15rem}
+.avatar{width:clamp(150px,24vw,290px);aspect-ratio:1;border-radius:50%;display:grid;place-items:center;font:800 clamp(3rem,8vw,6rem) Syne,sans-serif;color:var(--cyan);background:var(--panel);border:2px solid var(--cyan);box-shadow:0 0 28px var(--cyan),0 0 80px rgba(255,43,214,.45),inset 0 0 40px rgba(24,240,255,.18);animation:pulse 4s ease-in-out infinite;overflow:hidden}
+.avatar img{width:100%;height:100%;object-fit:cover}
+@keyframes pulse{50%{box-shadow:0 0 40px var(--pink),0 0 110px rgba(24,240,255,.5),inset 0 0 40px rgba(255,43,214,.2);border-color:var(--pink)}}
+.btn{display:inline-block;padding:.8rem 1.6rem;border:1.5px solid var(--cyan);color:var(--cyan);text-decoration:none;font-weight:700;border-radius:999px;transition:.25s;margin:0 .6rem .6rem 0}
+.btn:hover,.btn:focus-visible{background:var(--cyan);color:#021014;box-shadow:0 0 28px var(--cyan);outline:none}
+.btn.alt{border-color:var(--pink);color:var(--pink)}
+.btn.alt:hover,.btn.alt:focus-visible{background:var(--pink);color:#18001a;box-shadow:0 0 28px var(--pink)}
+.wrap{max-width:62rem;width:100%}
+.panel{background:rgba(15,13,31,.78);border:1px solid var(--line);border-radius:18px;padding:1.6rem 1.8rem;backdrop-filter:blur(6px)}
+.panel p{max-width:46rem}
+.cols{display:grid;grid-template-columns:2fr 1fr;gap:1.4rem}
+.tags{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:.8rem;list-style:none;padding:0}
+.tags li{padding:.35rem 1rem;border:1px solid var(--pink);color:#ffd5f6;border-radius:999px;font-size:.95rem}
+.tags.c li{border-color:var(--cyan);color:#c9fbff}
+.tags.l li{border-color:var(--lime);color:#e8ffc4}
+.scroll{overflow-x:auto;border-radius:18px;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:560px;background:rgba(15,13,31,.78)}
+th,td{padding:1rem 1.2rem;text-align:left;border-bottom:1px solid var(--line)}
+th{font:600 .95rem Syne,sans-serif;color:var(--cyan)}
+tr:last-child td{border-bottom:0}
+td strong{color:var(--lime);font-size:1.2rem}
+.skillgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1.4rem}
+.panel h3{margin-bottom:.4rem}
+.contact a.mail{font:800 clamp(1.3rem,4.2vw,2.6rem) Syne,sans-serif;color:var(--ink);text-decoration:none;border-bottom:2px solid var(--pink);word-break:break-all}
+.contact a.mail:hover{color:var(--pink)}
+footer{margin-top:3rem;color:var(--mute);font-size:.9rem}
+nav{position:fixed;z-index:5;right:1rem;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:.9rem}
+nav a{width:12px;height:12px;border-radius:50%;border:1.5px solid var(--cyan);display:block;transition:.3s}
+nav a.on{background:var(--pink);border-color:var(--pink);box-shadow:0 0 14px var(--pink);transform:scale(1.35)}
+nav a:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:760px){.hero,.cols{grid-template-columns:1fr}.avatar{order:-1;width:140px}section{padding-top:4rem}nav{right:.4rem}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}main{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="glow" aria-hidden="true"><i></i><i></i></div>
+<nav aria-label="Slides">
+  <a href="#home" class="on" aria-label="Home"></a><a href="#about" aria-label="About"></a><a href="#education" aria-label="Education"></a><a href="#skills" aria-label="Skills and languages"></a><a href="#contact" aria-label="Contact"></a>
+</nav>
+<main>
+<header id="home"><section aria-labelledby="t-home">
+  <div class="hero wrap">
+    <div>
+      <h1 id="t-home"><span class="neon">Chintala Anjani</span></h1>
+      <p>First-year BCA student at Vignan University. I am a quick learner who enjoys building skills for a career in technology.</p>
+      <a class="btn" href="#education">View education</a><a class="btn alt" href="#contact">Contact me</a>
+    </div>
+    <!-- To use your photo: replace the initials with <img src="profile.jpg" alt="Chintala Anjani"> -->
+    <div class="avatar" role="img" aria-label="Chintala Anjani profile picture">CA</div>
+  </div>
+</section></header>
+
+<section id="about" aria-labelledby="t-about"><div class="wrap">
+  <h2 id="t-about" class="rv">About me</h2>
+  <div class="cols">
+    <div class="panel rv">
+      <h3>Career objective</h3>
+      <p>Motivated and enthusiastic first-year BCA student at Vignan University, eager to learn new skills and gain practical experience. A quick learner with good communication skills and an interest in developing a successful career in the field of technology.</p>
+    </div>
+    <div class="panel rv">
+      <h3>Hobbies and interests</h3>
+      <ul class="tags"><li>Listening to music</li><li>Dancing</li><li>Reading books</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="education" aria-labelledby="t-edu"><div class="wrap">
+  <h2 id="t-edu" class="rv">Education</h2>
+  <div class="scroll rv">
+  <table>
+    <caption class="sr">Educational details of Chintala Anjani</caption>
+    <thead><tr><th scope="col">Qualification</th><th scope="col">Institution</th><th scope="col">Year of completion</th><th scope="col">Percentage</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">BCA</th><td>Vignan University</td><td>Present</td><td>In progress</td></tr>
+      <tr><th scope="row">Intermediate</th><td>Krishna Reddy Chaitanya</td><td>2025</td><td><strong>86%</strong></td></tr>
+      <tr><th scope="row">10th Class</th><td>Vishwanthi English Medium School</td><td>2023</td><td><strong>90%</strong></td></tr>
+    </tbody>
+  </table>
+  </div>
+</div></section>
+
+<section id="skills" aria-labelledby="t-skills"><div class="wrap">
+  <h2 id="t-skills" class="rv">Skills and languages</h2>
+  <div class="skillgrid">
+    <div class="panel rv"><h3>Skills</h3><ul class="tags c"><li>Good communication</li><li>Quick learner</li></ul></div>
+    <div class="panel rv"><h3>Languages</h3><ul class="tags l"><li>English</li><li>Telugu</li></ul></div>
+    <div class="panel rv"><h3>Currently learning</h3><ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></div>
+  </div>
+</div></section>
+
+<section id="contact" class="contact" aria-labelledby="t-contact"><div class="wrap">
+  <h2 id="t-contact" class="rv">Contact</h2>
+  <p class="rv" style="color:var(--mute);margin-bottom:1.2rem">Open to internships, learning opportunities and collaboration. Email me:</p>
+  <p class="rv"><a class="mail" href="mailto:anjaniias16@gmail.com">anjaniias16@gmail.com</a></p>
+  <footer>© 2026 Chintala Anjani. BCA, Vignan University.</footer>
+</div></section>
+</main>
+<script>
+(function(){
+  var main=document.querySelector('main'),dots=document.querySelectorAll('nav a'),secs=document.querySelectorAll('main section');
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(e.isIntersecting){
+      e.target.querySelectorAll('.rv').forEach(function(el,i){setTimeout(function(){el.classList.add('in')},i*120)});
+      var id=e.target.id||'home';dots.forEach(function(d){d.classList.toggle('on',d.getAttribute('href')==='#'+id)});
+    }})},{root:main,threshold:.55});
+  secs.forEach(function(s){io.observe(s)});
+  document.querySelectorAll('nav a,.btn').forEach(function(a){a.addEventListener('click',function(e){
+    var t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'})}})});
+})();
+</script>
+</body>
+</html>
